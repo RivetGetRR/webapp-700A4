@@ -21,7 +21,7 @@ module.exports.initialize = function(){
             //Code copied from assignment instructions
             fs.readFile('data/students.json', 'utf8', function(err, dataFromSomeFile){
                 if (err){
-                    //Error or Fail
+                    //Error or Fail 
                 reject("=ERROR= - Unable to retrieve Student Data from students.json! More Information: " +  err);
                 return; // exit the function
                 }
