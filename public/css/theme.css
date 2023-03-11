@@ -8,7 +8,7 @@ h1{
     /*font-family: 'Tilt Prism', cursive;*/
     font-family: 'Lobster', cursive;
     color: rgb(69, 10, 10) !important;
-    text-shadow: 1px 1px 2px rgb(97, 8, 8);
+    text-shadow: 2px 1px 3px rgb(82, 8, 8);
 }
 
 /* Code from assignment page link:
@@ -43,7 +43,6 @@ h4,h5{
 .imageheader{
     font-family: 'Lobster', cursive;
     color: rgb(124, 2, 2) !important;
-    text-shadow: 2px 2px 2px rgb(97, 8, 8);
 }
 
 p{
