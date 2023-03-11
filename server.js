@@ -4,7 +4,7 @@
 * of this assignment has been copied manually or electronically from any other source 
 * (including 3rd party web sites) or distributed to other students.
 * 
-* Name: Rahul Pankaja Edirisnghe Student ID: 133360222 Date: 10/03/2023 March 10th 2023
+* Name: Rahul Pankaja Edirisinghe Student ID: 133360222 Date: 10/03/2023 March 10th 2023
 *
 * Online (Cyclic) Link: https://victorious-dog-buckle.cyclic.app
 *
