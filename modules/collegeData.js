@@ -19,7 +19,7 @@ module.exports.initialize = function(){
 
         try{
             //Code copied from assignment instructions
-            fs.readFile('./data/students.json', 'utf8', function(err, dataFromSomeFile){
+            fs.readFile('data/students.json', 'utf8', function(err, dataFromSomeFile){
                 if (err){
                     //Error or Fail
                 reject("=ERROR= - Unable to retrieve Student Data from students.json! More Information: " +  err);
@@ -27,7 +27,7 @@ module.exports.initialize = function(){
                 }
                 
                 let studentDataFromFile = JSON.parse(dataFromSomeFile); // convert the JSON from the file into an array of objects
-                fs.readFile('./data/courses.JSON', 'utf8', function(err, dataFromSomeFile){
+                fs.readFile('data/courses.json', 'utf8', function(err, dataFromSomeFile){
                     if (err){
                     //Error or Fail
                     reject("=ERROR= - Unable to retrieve Course Data from courses.json! More Information: " + err);
