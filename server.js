@@ -79,7 +79,7 @@ app.get("/tas", (req, res) => {
 app.get("/courses", (req, res) => {
     moduleAccess.getCourses().then(function(courseData){
         console.log("Successfully retrieved " + (courseData.length) + " courses");
-        
+        res.json(courseData);
     }).catch(errorMessageC=>{
         console.log(errorMessageC);
         res.json({message: errorMessageC});
